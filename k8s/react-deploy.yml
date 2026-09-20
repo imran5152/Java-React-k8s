@@ -20,8 +20,7 @@ spec:
       containers:
         - name: college-frontend
 
-          image: imran5152/college-frontend:v3
-
+          image: imran5152/college-frontend-k8s:v1
           imagePullPolicy: Always
 
           ports:
